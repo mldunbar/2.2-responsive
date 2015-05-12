@@ -1,0 +1,75 @@
+
+img{
+  width: 90%;
+}
+
+body {
+  font-family: "Arial", Sans-Serif;
+  color: rgba(71, 163, 218, 1);
+  font-size: 62.5%;
+}
+.container{
+  width: 99%;
+  margin: 0 auto;
+}
+
+/*desktop*/
+@media (min-width: 840px) {
+  .noodles,
+  .roe,
+  .sashimi {
+    display: inline-block;
+    width: 33%;
+    margin-top: 2%;
+    vertical-align: top;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+  }
+}
+
+/*tablet*/
+@media (max-width: 839px) and (min-width: 500px) {
+
+  div img {
+    clear: both;
+    width: 45%;
+    margin: 2%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .text1,
+  .text2,
+  .text3 {
+    width: 45%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+
+  span {
+    display: block;
+    text-align: center;
+    vertical-align: bottom;
+  }
+
+}
+
+/*mobile*/
+@media (max-width: 499px) {
+  div div,
+  div .text,
+  span
+   {
+    display: block;
+    text-align: center
+  }
+
+div img {
+  margin: 5%;
+}
+
+}
