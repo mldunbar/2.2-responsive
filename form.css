@@ -1,0 +1,46 @@
+body{
+  background-color: #4efdd1;
+  color: #4965FF;
+}
+
+input{
+  background-color: #FFA9E1;
+  border: 1px solid #0E115C;
+}
+
+textarea{
+  background-color: #FFA9E1;
+  border: 1px solid #0E115C;
+}
+
+select {
+  background-color: #FFA9E1;
+  border: 1px solid #0E115C;
+}
+
+input:hover{
+  border: 1px solid #fff;
+}
+
+textarea:hover{
+  border: 1px solid #fff;
+}
+
+select:hover{
+  border: 1px solid #fff;
+}
+
+.column-left{
+  float:left;
+  width: 33%;
+}
+
+.column-middle{
+  display: inline-block;
+  width: 33%;
+}
+
+.column-right{
+  float: right;
+  width: 33%;
+}
