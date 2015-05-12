@@ -5,6 +5,29 @@ body{
 
 input{
   background-color: #FFA9E1;
+  border: 1px solid #0E115C;
+}
+
+textarea{
+  background-color: #FFA9E1;
+  border: 1px solid #0E115C;
+}
+
+select {
+  background-color: #FFA9E1;
+  border: 1px solid #0E115C;
+}
+
+input:hover{
+  border: 1px solid #fff;
+}
+
+textarea:hover{
+  border: 1px solid #fff;
+}
+
+select:hover{
+  border: 1px solid #fff;
 }
 
 .column-left{
