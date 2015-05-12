@@ -6,30 +6,66 @@
   <link rel="stylesheet" href="form.css">
 </head>
 <body>
-  
-  <div class="column-left">
-    <h2>FIRST NAME</h2>
-    <h2>LAST NAME</h2>
-    <h2>EMAIL ADDRESS</h2>
-    <h2>COUNTRY</h2>
-    <h2>BIOGRAPHY</h2>
-  </div>
+   <div>
 
-  <div class="column-middle">
-    <h2>PHONE NUMBER</h2>
-    <h2>AFFILIATIONS</h2>
-    <h2>OCCUPATION</h2>
-    <h2>CAT'S NAME</h2>
-    <h2>FAVORITE GADGET</h2>
-  </div>
+    <div class="column-left">
 
-  <div class="column-right">
-    <H2>TYPE OF TALENT</H2>
-    <H2>FAVORITE DRINK</H2>
-    <H2>SPECIAL POWER</H2>
-    <H2>WEAPON OF CHOICE</H2>
-    <H2>COMMENTS</H2>
-  </div>
+      <h2>FIRST NAME</h2>
+        <input type="text" placeholder="Jane">
 
+      <h2>LAST NAME</h2>
+      <input type="text" placeholder="Doe">
+
+      <h2>EMAIL ADDRESS</h2>
+      <input type="email" placeholder="j.doe@doe.com">
+
+      <h2>COUNTRY</h2>
+        <select name="COUNTRY">
+          <option value="USA">USA</option>
+          <option value="Somewhere else">Somewhere else</option>
+        </select>
+      <h2>BIOGRAPHY</h2>
+        <textarea name="biography" id="" cols="30" rows="10">Enter life story here</textarea>
+    </div>
+
+    <div class="column-middle">
+      <h2>PHONE NUMBER</h2>
+        <input type="number" placeholder="888-888-8888">
+
+      <h2>AFFILIATIONS</h2>
+        <textarea name="affiliations" id="" cols="30" rows="10">List groups of which you're proud to be part</textarea>
+
+      <h2>OCCUPATION</h2>
+        <input type="text" placeholder="astronaut">
+
+      <h2>CAT'S NAME</h2>
+        <input type="text" placeholder="Lemon">
+
+      <h2>FAVORITE GADGET</h2>
+        <input type="text" placeholder="hammock">
+    </div>
+
+    <div class="column-right">
+
+      <h2>TYPE OF TALENT</h2>
+        <select name="TALENT">
+          <option value="1">Singing</option>
+          <option value="2">Playing accordion</option>
+          <option value="3">Anything else</option>
+        </select>
+
+      <h2>FAVORITE DRINK</h2>
+        <input type="text" placeholder="whiskey">
+
+      <h2>SPECIAL POWER</h2>
+        <input type="text" placeholder="invisibility">
+
+      <h2>WEAPON OF CHOICE</h2>
+        <input type="text" placeholder="Fatboy Slim">
+
+      <h2>COMMENTS</h2>
+      <textarea name="affiliations" id="" cols="30" rows="10">Let us know what you'd like to see</textarea>
+    </div>
+  </div>
 </body>
 </html>
